@@ -1,4 +1,14 @@
-
 {
-    "testFiles": "*(*.spec.js|*.feature)"
-}
+    "testFiles": "**/*.feature",
+    "integrationFolder": "cypress/integration",
+    "fixturesFolder": "cypress/fixtures",
+    "supportFile": "cypress/support/index.js",
+    "pluginsFile": "cypress/plugins/index.js",
+    "video": false,
+    "screenshots": false,
+    "chromeWebSecurity": false,
+    "modifyObstructiveCode": false,
+    "defaultCommandTimeout": 10000,
+    "baseUrl": "https://www.verity.com.br/"
+  }
+  

@@ -13,7 +13,10 @@
   "devDependencies": {
     "cypress": "4.12.1",
     "cypress-cucumber-preprocessor": {
-      "nonGlobalStepDefinitions": true
+      "nonGlobalStepDefinitions": true,
+      "testFiles": "**/*.feature",
+      "pluginsFile": "cypress/plugins/index.js",
+      "integrationFolder": "cypress/integration"
     }
   }
 }
